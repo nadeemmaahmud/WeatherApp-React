@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "sans-serif";
+  color: rgb(245, 245, 246);
+}
+
+.app{
+  min-height: 100vh;
+  display: grid;
+  background-color: #0093E9;
+  background-image: linear-gradient(to right top, #b80c6e, #b0258b, #9a45a4, #8f6ab9, #8884d5, #7595e5, #5da5f2, #42b5fa, #00c0f7, #00c9ef, #00d1e2, #06d7d1);
+
+}
