@@ -49,10 +49,10 @@ function Weather() {
 
       {weatherdata? <>
         <img src={weatherdata.condition_icon} alt='condition' className='weather-icon'/>
-        <p className='tempareture'>{weatherdata.tempareture}</p>
+        <p className='tempareture'>{weatherdata.tempareture}&deg;C</p>
         <p className='location'>{weatherdata.city}, {weatherdata.country}</p>
         <p className='condition'>{weatherdata.condition}</p>
-        <p className='feels-like'>Feels Like : {weatherdata.feels_like}</p>
+        <p className='feels-like'>Feels Like : {weatherdata.feels_like}&deg;C</p>
 
         <div className='weather-data'>
             <div className='col'>
